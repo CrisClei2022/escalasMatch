@@ -1,5 +1,5 @@
-<!-- 3
-Login ok
+<!-- 4
+largura login modal ok
 -->
 <!DOCTYPE html>
 <html lang="pt-BR">
@@ -178,7 +178,7 @@ Login ok
               padding: 30px;
               border-radius: 20px;
               width: 50%;
-              max-width: 750px;
+              max-width: 400px;
               max-height: 95vh;
               overflow-y: auto;
               backdrop-filter: blur(20px);
@@ -234,7 +234,7 @@ Login ok
               font-size: 30px;
 			}
 			.form-group input, .form-group select, .form-group textarea {
-              width: 100%;
+              width: 80%;
               padding: 15px;
               border: 2px solid rgba(102, 126, 234, 0.3);
               border-radius: 12px;
@@ -529,13 +529,13 @@ Login ok
         </div>
     </header>
     
-    <section class="access-modal" id="accessModal">
+    <section class="access-modal" id="accessModal" style="max-width: 300px;">
     	<h1>Escalas Match</h1>        
         <h3>Acesso Restrito</h3>
         <p>Por favor, autentique-se para continuar.</p>
         <form id="loginForm">
-            <input class="access-button" type="email" id="emailInput" placeholder="Digite o seu email aqui" required autocomplete="email">
-            <input class="access-button" type="password" id="passwordInput" placeholder="Digite a sua senha aqui" required autocomplete="current-password">
+            <input class="access-button" type="email" id="emailInput" placeholder="Digite o seu email aqui" required autocomplete="email" style="max-width: 170px;">
+            <input class="access-button" type="password" id="passwordInput" placeholder="Digite a sua senha aqui" required autocomplete="current-password" style="max-width: 170px;">
             <button class="access-button" type="submit" id="accessButton">Acessar</button>
         </form>
         <p id="statusMessage"></p>
